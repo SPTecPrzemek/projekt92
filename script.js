@@ -1,7 +1,6 @@
 /**
  * Created by stasiakprzemyslaw on 13.03.2017.
  */
-$(document).ready(function(){
     console.log('DOM załadowany - można się bawić');
     var span = $("span");
     span.each(function (index,element) {
@@ -18,7 +17,7 @@ $(document).ready(function(){
             alert($(this).attr("data-tmp"));
         });
     });
-});
+
 
 
 
